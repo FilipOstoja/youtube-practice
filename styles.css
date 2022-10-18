@@ -3,10 +3,16 @@ p{
   margin-top: 0;
   margin-bottom: 0;
 }
+.allvideos-grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+column-gap: 16px;
+row-gap: 40px;
+}
 
 .thumbnail {
-  width: 300px;
-  display: block;
+  width: 100%;
+  margin-bottom: 12px;
   
 }
 
@@ -20,8 +26,6 @@ p{
 }
 .video-name{  
   font-weight: 500;
-  margin-top: 12px;
-  margin-top: 12px;
   font-size: 14px;
   line-height: 20px;
 
@@ -37,25 +41,13 @@ p{
   margin-bottom: 4px;
 }
 
-.video-preview{
-  width: 300px;
-  vertical-align: top;
-  margin-right: 15px;
-  display: inline-block;
+.video-info-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
-.video-profilepic{
-  display: inline-block;
-  width: 40px;
-  vertical-align: top;
-}
 
-.video-info{
-  display: inline-block;
-  width: 200px;
-}
 .profilepicture{
-  width: 100%;
-  border-radius: 100%;
-  margin-top: 12px;
+  width: 40px;
+  border-radius: 50%;
 }
