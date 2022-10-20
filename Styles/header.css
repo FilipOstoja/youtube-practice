@@ -8,6 +8,7 @@
   border-color: rgb(192, 192, 192);
   border-radius: 2px;
   box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+  width: 0;
 }
 .searchbar::placeholder{
   font-family: Roboto, Arial;
@@ -36,8 +37,12 @@
 }
 
 .right-section-header{  
-  background-color: lightseagreen;
   width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
 }
 
 .hamburger-menu{
@@ -52,16 +57,46 @@
 
 .searchbutton{
   height: 40px;
-  width: 60px;
+  width: 66px;
+  background-color: rgb(240, 240, 240);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  margin-left: -1px;
+  margin-right: 10px;
 }
 
 .voice-searchbutton{
   height: 40px;
   width: 40px;
+  border-radius: 20px;
+  background-color: #f8f8f8;
+  border: none;
 }
 
 .searchicon{
+  height: 25px;
+  margin-top: 4px;
 }
 
-.voice-searchicon{  
+.voice-searchicon{ 
+  margin-top: 4px;
+  height: 24px;
+}
+
+.upload-icon{
+  height: 24px;
+}
+
+.apps-icon{
+  height: 24px;
+}
+
+.notifications-icon{
+  height: 24px;
+}
+
+.current-user-pic{
+  height: 32px;
+  border-radius: 16px;
 }
