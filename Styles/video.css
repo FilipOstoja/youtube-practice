@@ -6,10 +6,8 @@ row-gap: 40px;
 }
 
 .thumbnail {
-  width: 100%;
-  margin-bottom: 12px;
-  
-}
+  width: 100%;  
+}   
 
 .video-name{  
   font-weight: 500;
@@ -37,4 +35,23 @@ row-gap: 40px;
 .profilepicture{
   width: 40px;
   border-radius: 50%;
+}
+
+.video{
+  margin-bottom: 12px;
+  position:relative;
+}
+
+.video-timestamp{
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px;
+  position:absolute;
+  bottom: 7px;
+  right: 4px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  border-radius: 2px;
+
 }
